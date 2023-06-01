@@ -15,192 +15,205 @@
 <body>
     
   <header class="header" data-header>
-
+    <!-- Overlay div -->
     <div class="overlay" data-overlay></div>
 
+    <!-- Header top section -->
     <div class="header-top">
-      <div class="container">
+        <div class="container">
 
-        <ul class="header-top-list">
+            <!-- Header top list -->
+            <ul class="header-top-list">
 
-          <li>
-            <a href="mailto:info@homematch.com" class="header-top-link">
-              <ion-icon name="mail-outline"></ion-icon>
+                <!-- List item 1: Email link -->
+                <li>
+                    <a href="mailto:info@homematch.com" class="header-top-link">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span>info@homematch.com</span>
+                    </a>
+                </li>
 
-              <span>info@homematch.com</span>
-            </a>
-          </li>
+                <!-- List item 2: Location link -->
+                <li>
+                    <a href="#" class="header-top-link">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <address>11/A, Address Tower, Dubai</address>
+                    </a>
+                </li>
 
-          <li>
-            <a href="#" class="header-top-link">
-              <ion-icon name="location-outline"></ion-icon>
+            </ul>
+            <!-- End of header top list -->
 
-              <address>11/A, Address Tower, Dubai</address>
-            </a>
-          </li>
-
-        </ul>
-
-        <div class="wrapper">
-          <ul class="header-top-social-list">
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-pinterest"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-          <button class="header-top-btn">Add Listing</button>
-        </div>
+            <div class="wrapper">
+              <!-- Header top social list -->
+              <ul class="header-top-social-list">
+          
+                  <!-- Social media link 1: Facebook -->
+                  <li>
+                      <a href="#" class="header-top-social-link">
+                          <ion-icon name="logo-facebook"></ion-icon>
+                      </a>
+                  </li>
+          
+                  <!-- Social media link 2: Twitter -->
+                  <li>
+                      <a href="#" class="header-top-social-link">
+                          <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                  </li>
+          
+                  <!-- Social media link 3: Instagram -->
+                  <li>
+                      <a href="#" class="header-top-social-link">
+                          <ion-icon name="logo-instagram"></ion-icon>
+                      </a>
+                  </li>
+          
+                  <!-- Social media link 4: Pinterest -->
+                  <li>
+                      <a href="#" class="header-top-social-link">
+                          <ion-icon name="logo-pinterest"></ion-icon>
+                      </a>
+                  </li>
+          
+              </ul>
+              <!-- End of header top social list -->
+          
+              <!-- Add Listing button -->
+              <button class="header-top-btn">Add Listing</button>
+          </div>
+          
 
       </div>
     </div>
 
     <div class="header-bottom">
       <div class="container">
-
-        <a href="#" class="logo">
-          <img src="pics/Home match (500 × 300px) (314 × 91px) (314 × 123px).png" alt="Homeverse logo">
-        </a>
-
-        <nav class="navbar" data-navbar>
-
-          <div class="navbar-top">
-
-            <a href="#" class="logo">
+  
+          <!-- Logo link -->
+          <a href="#" class="logo">
               <img src="pics/Home match (500 × 300px) (314 × 91px) (314 × 123px).png" alt="Homeverse logo">
-            </a>
-
-            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </div>
-
-          <div class="navbar-bottom">
-            <ul class="navbar-list">
-
-              <li>
-                <a href="index.html" class="navbar-link" data-nav-link>Home</a>
-                
-
-              </li>
-
-              <li>
-                <a href="#about" class="navbar-link" data-nav-link>About</a>
-              </li>
-
-              <li>
-                <a href="#service" class="navbar-link" data-nav-link>Service</a>
-              </li>
-
-              <li>
-                <a href="#property" class="navbar-link" data-nav-link>Property</a>
-              </li>
-
-              <li>
-                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
-              </li>
-
-              <li>
-                <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
-              </li>
-
-            </ul>
-          </div>
-
-        </nav>
-
-        <div class="header-bottom-actions">
-
-            <button class="header-bottom-actions-btn" aria-label="Search">
-              <ion-icon name="search-outline"></ion-icon>
+          </a>
   
-              <span>Search</span>
-            </button>
+          <!-- Navbar -->
+          <nav class="navbar" data-navbar>
   
-            <button class="header-bottom-actions-btn" aria-label="Profile">
-              <ion-icon name="person-outline"></ion-icon>
+              <!-- Navbar top -->
+              <div class="navbar-top">
   
-              <span>Profile</span>
-            </button>
+                  <!-- Logo link (inside navbar top) -->
+                  <a href="#" class="logo">
+                      <img src="pics/Home match (500 × 300px) (314 × 91px) (314 × 123px).png" alt="Homeverse logo">
+                  </a>
   
-            <button class="header-bottom-actions-btn" aria-label="Cart">
-              <ion-icon name="cart-outline"></ion-icon>
+                  <!-- Navbar close button -->
+                  <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+                      <ion-icon name="close-outline"></ion-icon>
+                  </button>
   
-              <span>Cart</span>
-            </button>
+              </div>
+              <!-- End of navbar top -->
   
-            <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
-              <ion-icon name="menu-outline"></ion-icon>
-  
-              <span>Menu</span>
-            </button>
-  
-          </div>
+              <div class="navbar-bottom">
+                <ul class="navbar-list">
+                    <!-- Navbar links -->
+                    <li>
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+            
+                    <li>
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+            
+                    <li>
+                        <a href="#service" class="navbar-link" data-nav-link>Service</a>
+                    </li>
+            
+                    <li>
+                        <a href="#property" class="navbar-link" data-nav-link>Property</a>
+                    </li>
+            
+                    <li>
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+            
+                    <li>
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            </nav>
+            
+            <!-- Header bottom actions -->
+            <div class="header-bottom-actions">
+            
+                <!-- Search button -->
+                <button class="header-bottom-actions-btn" aria-label="Search">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <span>Search</span>
+                </button>
+            
+                <!-- Profile button -->
+                <button class="header-bottom-actions-btn" aria-label="Profile">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span>Profile</span>
+                </button>
+            
+                <!-- Cart button -->
+                <button class="header-bottom-actions-btn" aria-label="Cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <span>Cart</span>
+                </button>
+            
+                <!-- Open menu button -->
+                <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+                    <ion-icon name="menu-outline"></ion-icon>
+                    <span>Menu</span>
+                </button>
+            
+            </div>
+            
   
         </div>
       </div>
-  <div class="explore1">
-      <header>
-        <h1>Explore Properties....</h1>
-      </header>
-  </div>
-      <nav>
+      <div class="explore1">
+        <!-- Header section -->
+        <header>
+            <h1>Explore Properties....</h1>
+        </header>
+    </div>
+    
+    <nav>
+        <!-- Video section -->
         <video muted loop autoplay width="1636">
             <source src="videos/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
-          </video>
-          
-
-      </nav>
-      
-      <main>
+        </video>
+    </nav>
+    
+    <main>
+        <!-- Property list section -->
         <section class="property-list">
-          <div class="property1">
-            <img src="pics/explore1.jpg" alt="Property 1" >
-            
-          
-          </div>
-          
-          <div class="property2">
-            <img src="pics/explore2.jpg" alt="Property 2">
-            
-            
-          </div>
-          
-          <div class="property3">
-            <img src="pics/explore3.jpg" alt="Property 3">
-
-
-            
-           
-       
-          </div>
+            <!-- Property 1 -->
+            <div class="property1">
+                <img src="pics/explore1.jpg" alt="Property 1">
+            </div>
+    
+            <!-- Property 2 -->
+            <div class="property2">
+                <img src="pics/explore2.jpg" alt="Property 2">
+            </div>
+    
+            <!-- Property 3 -->
+            <div class="property3">
+                <img src="pics/explore3.jpg" alt="Property 3">
+            </div>
         </section>
-      </main>
+    </main>
+    
       
-       <!-- 
+    <!-- 
     - #FOOTER
   -->
 
@@ -209,129 +222,138 @@
     <div class="footer-top">
       <div class="container">
 
-        <div class="footer-brand">
+          <!-- Footer brand section -->
+  <div class="footer-brand">
 
-          <a href="#" class="logo">
-            <img src="pics/logo down.png" alt="Homematch logo">
-          </a>
+    <a href="#" class="logo">
+      <img src="pics/logo down.png" alt="Homematch logo">
+    </a>
 
-          <p class="section-text">
-            "Discover your dream home with ease. Welcome to our premier property website, where extraordinary listings meet your desires."
-          </p>
+    <p class="section-text">
+      "Discover your dream home with ease. Welcome to our premier property website, where extraordinary listings meet your desires."
+    </p>
 
-          <ul class="contact-list">
+    <!-- Contact information section -->
+    <ul class="contact-list">
 
-            <li>
-              <a href="#" class="contact-link">
-                <ion-icon name="location-outline"></ion-icon>
+      <li>
+        <a href="#" class="contact-link">
+          <ion-icon name="location-outline"></ion-icon>
 
-                <address>Dubai,UAE</address>
-              </a>
-            </li>
+          <address>Dubai, UAE</address>
+        </a>
+      </li>
 
-            <li>
-              <a href="tel:+786558653" class="contact-link">
-                <ion-icon name="call-outline"></ion-icon>
+      <li>
+        <a href="tel:+786558653" class="contact-link">
+          <ion-icon name="call-outline"></ion-icon>
 
-                <span>+0123-456789</span>
-              </a>
-            </li>
+          <span>+0123-456789</span>
+        </a>
+      </li>
 
-            <li>
-              <a href="mailto:contact@homematch.com" class="contact-link">
-                <ion-icon name="mail-outline"></ion-icon>
+      <li>
+        <a href="mailto:contact@homematch.com" class="contact-link">
+          <ion-icon name="mail-outline"></ion-icon>
 
-                <span>contact@homematch.com</span>
-              </a>
-            </li>
+          <span>contact@homematch.com</span>
+        </a>
+      </li>
 
-          </ul>
+    </ul>
 
-          <ul class="social-list">
+    <!-- Social media links section -->
+    <ul class="social-list">
 
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
+      <li>
+        <a href="#" class="social-link">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
 
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
+      <li>
+        <a href="#" class="social-link">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </li>
 
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
+      <li>
+        <a href="#" class="social-link">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
 
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
+      <li>
+        <a href="#" class="social-link">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+      </li>
 
-          </ul>
+    </ul>
 
-        </div>
+  </div>
 
-        <div class="footer-link-box">
+  <!-- Footer links section -->
+  <div class="footer-link-box">
 
-          <ul class="footer-list">
+    <!-- Company links -->
+    <ul class="footer-list">
 
-            <li>
-              <p class="footer-list-title">Company</p>
-            </li>
+      <li>
+        <p class="footer-list-title">Company</p>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">About</a>
-            </li>
+      <li>
+        <a href="#" class="footer-link">About</a>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">Blog</a>
-            </li>
+      <li>
+        <a href="#" class="footer-link">Blog</a>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">All Products</a>
-            </li>
+      <li>
+        <a href="#" class="footer-link">All Products</a>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">Locations Map</a>
-            </li>
+      <li>
+        <a href="#" class="footer-link">Locations Map</a>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">FAQ</a>
-            </li>
+      <li>
+        <a href="#" class="footer-link">FAQ</a>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">Contact us</a>
-            </li>
+      <li>
+        <a href="#" class="footer-link">Contact us</a>
+      </li>
 
-          </ul>
+    </ul>
 
-          <ul class="footer-list">
+    <!-- Services links -->
+    <ul class="footer-list">
 
-            <li>
-              <p class="footer-list-title">Services</p>
-            </li>
+      <li>
+        <p class="footer-list-title">Services</p>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">Order tracking</a>
-            </li>
+      <li>
+        <a href="#" class="footer-link">Order tracking</a>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">Wish List</a>
-            </li>
+      <li>
+        <a href="#" class="footer-link">Wish List</a>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">Login</a>
-            </li>
+      <li>
+        <a href="login.html" class="footer-link">Login</a>
+      </li>
 
-            <li>
-              <a href="#" class="footer-link">My account</a>
-            </li>
+      <li>
+        <a href="#" class="footer-link">My account</a>
+      </li>
+
+      <li>
+        <a href="#" class="footer-link">Terms
 
             <li>
               <a href="#" class="footer-link">Terms & Conditions</a>
@@ -350,7 +372,7 @@
             </li>
 
             <li>
-              <a href="#" class="footer-link">Login</a>
+              <a href="login.html" class="footer-link">Login</a>
             </li>
 
             <li>
@@ -384,7 +406,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2023 <a href="#">codewithzaid</a>. All Rights Reserved
+          &copy; 2023 <a href="#">www.zaid.com</a>. All Rights Reserved
         </p>
 
       </div>

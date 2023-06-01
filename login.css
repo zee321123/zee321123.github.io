@@ -1,9 +1,12 @@
-/*Start Global Style*/
+/* Start Global Style */
+/* Applies styles to all elements */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* Applies styles to the body */
 body{
     background:#e9ebee;
     display: flex;
@@ -12,17 +15,22 @@ body{
     height:100vh;
     font-family: sans-serif;
 }
+
+/* Applies styles to the container */
 .container{
     width: 80%;
     margin: auto;
     padding: 1px;
-  height:100%
-  
+    height:100%;
 }
 
-.login ,.register{width: 50%}
+/* Applies styles to the login and register sections */
+.login ,.register{
+    width: 50%;
+}
 
-/*Start Login Style*/
+/* Start Login Style */
+/* Applies styles to the login section */
 .login{
     float:left;
     background-color: #fafafa;
@@ -31,88 +39,114 @@ body{
     text-align: center;
     padding-top: 100px;
 }
+
 .login h1{
     margin-bottom: 40px;
     font-size: 2.5em;
 }
 
-input[type="email"] , input[type="password"]{
+/* Applies styles to the input fields */
+input[type="email"], input[type="password"]{
     width: 100%;
     padding: 10px;
     margin-bottom: 30px;
     border: none;
     background-color: #eeeeef;
 }
+
 input[type="checkbox"]{
     float: left;
     margin-right: 5px;
 }
+
 .login span{
-    float: left
+    float: left;
 }
+
 .login a{
     text-align: center;
     text-decoration: none;
     color: #ffffff;
     transition: 0.3s all ease-in-out;
 }
-.login a:hover{color: hsl(9, 100%, 62%);;font-weight: bold}
+
+.login a:hover{
+    color: hsl(9, 100%, 62%);
+    font-weight: bold;
+}
+
+/* Applies styles to the login button */
 .login button{
     width: 100%;
     margin: 30px 0;
     padding: 10px;
     border: none;
-    background-color: hsl(9, 100%, 62%);;
+    background-color: hsl(9, 100%, 62%);
     color: #fff;
     font-size: 20px;
     cursor: pointer;
     transition: 0.3s all ease-in-out;
 }
+
 .login button:hover{
     width:97%;
     font-size: 22px;
     border-radius: 5px;
-    
 }
+
 .login hr{
     width: 30%;
-    display: inline-block
+    display: inline-block;
 }
 
 .login p{
     display: inline-block;
     margin: 0px 10px 30px;
 }
+
 .login ul{
     list-style: none;
-    margin-bottom:40px;  
+    margin-bottom:40px;
 }
+
 .login ul li{
     display: inline-block;
     margin-right: 30px;
     cursor: pointer;
 }
-.login ul li:hover{opacity: 0.6}
-.login ul li:last-child{margin-right: 0}
+
+.login ul li:hover{
+    opacity: 0.6;
+}
+
+.login ul li:last-child{
+    margin-right: 0;
+}
+
 .login .copyright{
     display: inline-block;
     float: none;
 }
-/*Start Register Style*/
+
+/* Start Register Style */
+/* Applies styles to the register section */
 .register{
     float: right;
-    background-color: hsl(9, 100%, 62%);   
+    background-color: hsl(9, 100%, 62%);
     height: 100%;
     color:#fff;
     border-radius:  0 10px 10px  0;
     text-align: center;
     padding: 100px 0;
 }
+
 .register h2{
     margin: 30px 0;
     font-size: 50px;
-    letter-spacing: 3px
+    letter-spacing: 3px;
 }
+
+
 .register p{
     font-size: 18px;
     margin-bottom: 30px;
